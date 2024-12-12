@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "start": "npm run lint && npm run format-check && node index.js"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "eslint": "^9.16.0",
